@@ -1,14 +1,8 @@
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import BookShow from "./components/BookShow";
 import BookDeatils from "./components/BookDeatils";
 import Back from './components/Back.tsx'
-import LogoutButton from './components/LogoutButton';
-import { ContactUs } from "./components/ContactUs.tsx";
 import './index.css';
 import { useAuth0 } from "@auth0/auth0-react";
-import Hero from "./components/Hero";
-import SocialProfile from "./components/SocialProfile";
-import OtherLibraries from "./components/OtherLibraries";
 import About from "./components/About";
 import Comments from "./components/Comments";
 import icon from "./assets/icon.png";

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Hero from './Hero'
 import BookShow from './BookShow'
 import OtherLibraries from './OtherLibraries'
