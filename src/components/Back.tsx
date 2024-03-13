@@ -16,5 +16,5 @@ const BackButton: React.FC = () => {
   );
 };
 
-export default BackButton;
+export default BackButton;
 

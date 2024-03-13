@@ -16,6 +16,5 @@ export default defineConfig({
       },
     },
   },
-  plugins: [react()],
-  base: "/Book-Reader/"
+  plugins: [react()]
 })
