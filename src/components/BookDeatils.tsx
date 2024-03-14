@@ -24,7 +24,7 @@ export default function BookDeatils() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:51730/api/sql/get-book-id/' + book_id)
+    fetch('https://bookapi.rajansudhan0.workers.dev/sql/get-book-id/' + book_id)
       .then((res) => res.json())
       .then((data) => {
         setBook(data.results[0]);

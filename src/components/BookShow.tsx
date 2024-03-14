@@ -13,7 +13,7 @@ interface bookdb {
 }
 
 export default function BookShow() {
-  const auth_token = "6853167hgfdvhbsavcajfhioqwergfvqwhkkcadsba_c";
+
   const navigate = useNavigate();
 
   const [books, setBook] = useState<bookdb[]>([]);
@@ -27,13 +27,7 @@ export default function BookShow() {
 
     useEffect(() => {
       try {
-        fetch("/api/sql/get-all-books", {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${auth_token}`,
-          },
-        })
+        fetch("https://bookapi.rajansudhan0.workers.dev/sql/get-all-books")
           .then((response) => response.json())
           .then((data) => {
             setBook(data.results);
