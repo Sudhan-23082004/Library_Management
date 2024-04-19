@@ -16,6 +16,6 @@ export default function Comments() {
       theme="preferred_color_scheme"
       lang="en"
       loading="lazy"
-    />
+    /></div>
   );
 }
