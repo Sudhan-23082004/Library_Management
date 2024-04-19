@@ -9,7 +9,7 @@ export default function Comments() {
       repoId="R_kgDOLf637g"
       category="Announcements"
       categoryId="DIC_kwDOLf637s4Ceyne"
-      mapping="url"
+      mapping="pathname"
       reactionsEnabled="1"
       emitMetadata="0"
       inputPosition="top"
