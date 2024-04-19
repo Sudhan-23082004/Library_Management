@@ -3,7 +3,7 @@ import Giscus from '@giscus/react';
 export default function Comments() {
   return (
     <div className=" px-32 pb-24 bg-[#ffe8e8]">
-    <Giscus
+      <Giscus
       id="comments"
       repo="Sudhan-23082004/Library_Management"
       repoId="R_kgDOLf637g"
@@ -12,10 +12,11 @@ export default function Comments() {
       mapping="pathname"
       reactionsEnabled="1"
       emitMetadata="0"
-      inputPosition="top"
+      inputPosition="bottom"
       theme="light"
       lang="en"
       loading="lazy"
-    /></div>
+    />
+</div>
   );
 }
